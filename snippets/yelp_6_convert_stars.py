@@ -1,13 +1,12 @@
+import os
 import sys
 
 import pandas as pd
 import plac
-import os
-from datetime import datetime
 
 sys.path.append('../')
-import snippets.yelp_constants_columns as paths
-import snippets.yelp_constants_file_paths as cols
+import snippets.yelp_constants_columns as cols
+import snippets.yelp_constants_file_paths as paths
 
 
 def main():
