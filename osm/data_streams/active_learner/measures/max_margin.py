@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.data_streams.active_learner.measures.abstract_measure import AbstractMeasure
+from osm.data_streams.active_learner.measures.abstract_measure import AbstractMeasure
 
 
 class MaxMargin(AbstractMeasure):

@@ -1,4 +1,4 @@
-from src.data_streams.oracle.oracle import Oracle
+from osm.data_streams.oracle.oracle import Oracle
 
 
 class SimpleOracle(Oracle):

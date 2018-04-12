@@ -1,6 +1,6 @@
 import pandas as pd
 
-from src.data_streams.evaluation.strategy.abstract_evaluation_strategy import AbstractEvaluationStrategy
+from osm.data_streams.evaluation.strategy.abstract_evaluation_strategy import AbstractEvaluationStrategy
 
 
 class Prequential(AbstractEvaluationStrategy):

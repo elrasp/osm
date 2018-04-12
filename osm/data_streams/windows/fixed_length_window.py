@@ -1,6 +1,6 @@
 import collections
 
-from src.data_streams.windows.abstract_window import AbstractWindow
+from osm.data_streams.windows.abstract_window import AbstractWindow
 
 
 class FixedLengthWindow(AbstractWindow):

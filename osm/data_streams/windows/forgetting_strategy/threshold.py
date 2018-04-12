@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.utils import shuffle
 from sklearn.utils.multiclass import unique_labels
 
-from src.data_streams.windows.forgetting_strategy.abstract_selective_forgetting import AbstractSelectiveForgetting
+from osm.data_streams.windows.forgetting_strategy.abstract_selective_forgetting import AbstractSelectiveForgetting
 
 
 class Threshold(AbstractSelectiveForgetting):

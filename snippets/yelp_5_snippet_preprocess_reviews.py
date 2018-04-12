@@ -9,9 +9,9 @@ from textacy import Corpus
 import os
 
 sys.path.append('../')
-from src.transformers import preprocessor as pr
-import snippets.constants_yelp_dataset_columns as cols
-import snippets.constants_yelp_dataset_file_paths as paths
+from osm.transformers import preprocessor as pr
+import snippets.yelp_constants_columns as cols
+import snippets.yelp_constants_file_paths as paths
 from datetime import datetime
 
 
@@ -25,8 +25,7 @@ def main(n_jobs=3, batch_size=12):
     ngrams for the pre-processed text
     """
     summary_files = {
-        "weekly": paths.DIR_FILE_REVIEW_WEEKLY,
-        "monthly": paths.DIR_FILE_REVIEW_MONTHLY
+        "weekly": paths.DIR_FILE_REVIEW_WEEKLY
     }
 
     for type, folder in summary_files.items():

@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.data_streams.active_learner.strategy.pool_based.variable_uncertainity import VariableUncertainty
+from osm.data_streams.active_learner.strategy.pool_based.variable_uncertainity import VariableUncertainty
 
 
 class RandomizedVariableUncertainty(VariableUncertainty):

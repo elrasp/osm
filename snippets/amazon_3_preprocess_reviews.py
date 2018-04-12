@@ -9,9 +9,9 @@ from textacy import Corpus
 import os
 
 sys.path.append('../')
-from src.transformers import preprocessor as pr
-import snippets.constants_amazon_dataset_columns as cols
-import snippets.constants_amazon_dataset_file_paths as paths
+from osm.transformers import preprocessor as pr
+import snippets.amazon_constants_columns as cols
+import snippets.amazon_constants_file_paths as paths
 from datetime import datetime
 
 

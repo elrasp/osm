@@ -6,8 +6,8 @@ import os
 from datetime import datetime
 
 sys.path.append('../')
-import snippets.constants_amazon_dataset_file_paths as paths
-import snippets.constants_amazon_dataset_columns as cols
+import snippets.amazon_constants_columns as paths
+import snippets.amazon_constants_file_paths as cols
 
 
 def main():

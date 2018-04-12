@@ -1,5 +1,5 @@
-from src.data_streams.windows.abstract_window import AbstractWindow
-from src.data_streams.windows.forgetting_strategy.abstract_selective_forgetting import AbstractSelectiveForgetting
+from osm.data_streams.windows.abstract_window import AbstractWindow
+from osm.data_streams.windows.forgetting_strategy.abstract_selective_forgetting import AbstractSelectiveForgetting
 
 
 class SlidingWindow(AbstractWindow):

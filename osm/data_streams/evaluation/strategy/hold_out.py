@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas import DataFrame
 
-from src.data_streams.evaluation.strategy.abstract_evaluation_strategy import AbstractEvaluationStrategy
+from osm.data_streams.evaluation.strategy.abstract_evaluation_strategy import AbstractEvaluationStrategy
 
 
 class HoldOut(AbstractEvaluationStrategy):

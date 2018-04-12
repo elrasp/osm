@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from abc import ABC, abstractmethod
 
-from src.data_streams.abstract_base_class import AbstractBaseClass
-import src.data_streams.constants as const
+from osm.data_streams.abstract_base_class import AbstractBaseClass
+import osm.data_streams.constants as const
 
 
 class AbstractWindow(AbstractBaseClass):

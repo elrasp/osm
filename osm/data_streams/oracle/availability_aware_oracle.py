@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.utils import shuffle
-from src.data_streams.oracle.oracle import Oracle
+from osm.data_streams.oracle.oracle import Oracle
 
 
 class AvailabilityAwareOracle(Oracle):

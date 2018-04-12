@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from src.data_streams.abstract_base_class import AbstractBaseClass
+from osm.data_streams.abstract_base_class import AbstractBaseClass
 
 
 class AbstractMeasure(AbstractBaseClass):

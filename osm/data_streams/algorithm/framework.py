@@ -8,14 +8,14 @@ import time
 from sklearn.base import BaseEstimator
 from sklearn.pipeline import FeatureUnion, Pipeline
 
-import src.data_streams.constants as const
-from src.data_streams.abstract_base_class import AbstractBaseClass
-from src.data_streams.active_learner.strategy.abstract_strategy import AbstractActiveLearningStrategy
-from src.data_streams.evaluation.strategy.abstract_evaluation_strategy import AbstractEvaluationStrategy
-from src.data_streams.evaluation.strategy.prequential import Prequential
-from src.data_streams.oracle.availability_aware_oracle import AvailabilityAwareOracle
-from src.data_streams.windows.abstract_window import AbstractWindow
-from src.data_streams.windows.no_window import NoWindow
+import osm.data_streams.constants as const
+from osm.data_streams.abstract_base_class import AbstractBaseClass
+from osm.data_streams.active_learner.strategy.abstract_strategy import AbstractActiveLearningStrategy
+from osm.data_streams.evaluation.strategy.abstract_evaluation_strategy import AbstractEvaluationStrategy
+from osm.data_streams.evaluation.strategy.prequential import Prequential
+from osm.data_streams.oracle.availability_aware_oracle import AvailabilityAwareOracle
+from osm.data_streams.windows.abstract_window import AbstractWindow
+from osm.data_streams.windows.no_window import NoWindow
 
 
 class FrameWork(AbstractBaseClass):

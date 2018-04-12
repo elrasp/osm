@@ -4,8 +4,8 @@ from pandas import DataFrame
 from sklearn.base import BaseEstimator
 from sklearn.pipeline import FeatureUnion, Pipeline
 
-from src.data_streams.abstract_base_class import AbstractBaseClass
-from src.data_streams.evaluation.evaluation_criteria import EvaluationCriteria
+from osm.data_streams.abstract_base_class import AbstractBaseClass
+from osm.data_streams.evaluation.evaluation_criteria import EvaluationCriteria
 
 
 class AbstractEvaluationStrategy(AbstractBaseClass):

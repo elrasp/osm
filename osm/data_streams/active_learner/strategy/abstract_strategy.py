@@ -4,10 +4,10 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 
-from src.data_streams.abstract_base_class import AbstractBaseClass
-from src.data_streams.active_learner.measures.measures_factory import get_measure
-from src.data_streams.oracle.oracle import Oracle
-import src.data_streams.constants as const
+from osm.data_streams.abstract_base_class import AbstractBaseClass
+from osm.data_streams.active_learner.measures.measures_factory import get_measure
+from osm.data_streams.oracle.oracle import Oracle
+import osm.data_streams.constants as const
 
 
 class AbstractActiveLearningStrategy(AbstractBaseClass):

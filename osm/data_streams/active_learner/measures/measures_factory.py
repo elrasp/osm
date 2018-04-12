@@ -1,6 +1,6 @@
-from src.data_streams.active_learner.measures.entropy import Entropy
-from src.data_streams.active_learner.measures.max_posterior import MaxPosterior
-from src.data_streams.active_learner.measures.max_margin import MaxMargin
+from osm.data_streams.active_learner.measures.entropy import Entropy
+from osm.data_streams.active_learner.measures.max_posterior import MaxPosterior
+from osm.data_streams.active_learner.measures.max_margin import MaxMargin
 
 
 def get_measure(measure='entropy'):

@@ -14,21 +14,21 @@ from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.preprocessing import MinMaxScaler
 
 sys.path.append('../')
-from src.data_streams.active_learner.strategy.pool_based.random import Random
-from src.data_streams.active_learner.strategy.pool_based.variable_randomized_uncertainity import \
+from osm.data_streams.active_learner.strategy.pool_based.random import Random
+from osm.data_streams.active_learner.strategy.pool_based.variable_randomized_uncertainity import \
     RandomizedVariableUncertainty
-from src.data_streams.active_learner.strategy.pool_based.variable_uncertainity import VariableUncertainty
-from src.data_streams.evaluation.strategy.prequential import Prequential
+from osm.data_streams.active_learner.strategy.pool_based.variable_uncertainity import VariableUncertainty
+from osm.data_streams.evaluation.strategy.prequential import Prequential
 
 
-import snippets.constants_amazon_dataset_columns as cols
-import snippets.constants_amazon_dataset_file_paths as paths
-from src.data_streams.windows.sliding_window import SlidingWindow
-from src.data_streams.oracle.availability_aware_oracle import AvailabilityAwareOracle
-from src.data_streams.windows.forgetting_strategy.threshold import FixedThreshold
-from src.transformers.Selectors import TextSelector, StatsSelector, SelectDynamicKBest
-from src.data_streams.active_learner.strategy.pool_based.fixed_uncertainity import FixedUncertainty
-from src.data_streams.algorithm.framework import FrameWork
+import snippets.yelp_constants_columns as cols
+import snippets.yelp_constants_file_paths as paths
+from osm.data_streams.windows.sliding_window import SlidingWindow
+from osm.data_streams.oracle.availability_aware_oracle import AvailabilityAwareOracle
+from osm.data_streams.windows.forgetting_strategy.threshold import FixedThreshold
+from osm.transformers.Selectors import TextSelector, StatsSelector, SelectDynamicKBest
+from osm.data_streams.active_learner.strategy.pool_based.fixed_uncertainity import FixedUncertainty
+from osm.data_streams.algorithm.framework import FrameWork
 
 
 warnings.filterwarnings('ignore')
@@ -44,9 +44,8 @@ def get_feature_pipeline():
         ('tfidf', TfidfTransformer())
     ])
 
+    
     return tfidf
-
-
 
 @plac.annotations(
     oracle_availability=("Oracle availability. Default: 0.1", "option", "a", float)
@@ -54,7 +53,7 @@ def get_feature_pipeline():
 def main(oracle_availability=0.1):
     summary_file = os.path.join(paths.DIR_FILE_REVIEW_WEEKLY, "summary_converted" + paths.EXT_PKL)
     target_col_name = cols.STARS
-    ild_timepoint = datetime(2011, 1, 10)
+    ild_timepoint = datetime(2005, 10, 31)
 
     
 

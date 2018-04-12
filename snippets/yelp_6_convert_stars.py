@@ -6,8 +6,8 @@ import os
 from datetime import datetime
 
 sys.path.append('../')
-import snippets.constants_yelp_dataset_file_paths as paths
-import snippets.constants_yelp_dataset_columns as cols
+import snippets.yelp_constants_columns as paths
+import snippets.yelp_constants_file_paths as cols
 
 
 def main():

@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.stats import entropy
 
-from src.data_streams.active_learner.measures.abstract_measure import AbstractMeasure
+from osm.data_streams.active_learner.measures.abstract_measure import AbstractMeasure
 
 
 class Entropy(AbstractMeasure):

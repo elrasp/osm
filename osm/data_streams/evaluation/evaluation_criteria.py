@@ -3,7 +3,7 @@ import numpy as np
 from datetime import datetime
 from sklearn import metrics
 from sklearn.utils.multiclass import unique_labels
-from src.data_streams import constants as const
+from osm.data_streams import constants as const
 
 
 class EvaluationCriteria(object):

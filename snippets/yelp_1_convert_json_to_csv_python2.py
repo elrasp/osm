@@ -111,8 +111,8 @@ if __name__ == '__main__':
     ext_csv = '.csv'
     ext_json = '.json'
 
-    folder_json = '../resources/data/yelp/json/'
-    folder_csv = '../resources/data/yelp/csv/'
+    folder_json = '../data/yelp/json/'
+    folder_csv = '../data/yelp/csv/'
 
     file_review = 'review'
 

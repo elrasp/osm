@@ -7,8 +7,8 @@ import os
 
 sys.path.append('../')
 
-import snippets.constants_yelp_dataset_columns as cols
-import snippets.constants_yelp_dataset_file_paths as paths
+import snippets.amazon_constants_columns as cols
+import snippets.amazon_constants_file_paths as paths
 from snippets import get_logger
 
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     """
 
     # get the logger
-    LOGGER = get_logger("snippet_create_time_series_file_splits.out")
+    LOGGER = get_logger("amazon_create_time_series_file_splits.out")
 
     # ------------------------ read the review file --------------------
     LOGGER.debug("Reading the review file.......")

@@ -1,4 +1,4 @@
-from src.data_streams.active_learner.strategy.abstract_strategy import AbstractActiveLearningStrategy
+from osm.data_streams.active_learner.strategy.abstract_strategy import AbstractActiveLearningStrategy
 
 
 class VariableUncertainty(AbstractActiveLearningStrategy):
