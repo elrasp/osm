@@ -2,7 +2,7 @@ import re
 
 import textacy.preprocess as preprocess
 
-from src.utils import constants_preprocess as const
+from osm.transformers import constants_preprocess as const
 
 
 def run_regex(regex, replace, text):

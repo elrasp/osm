@@ -1,5 +1,5 @@
 from sklearn.base import TransformerMixin
-import src.transformers.preprocessor as utils
+import osm.transformers.preprocessor as utils
 
 
 class NegationTransformer(TransformerMixin):

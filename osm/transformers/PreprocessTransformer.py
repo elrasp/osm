@@ -1,5 +1,5 @@
 from sklearn.base import TransformerMixin, BaseEstimator
-import src.transformers.preprocessor as utils
+import osm.transformers.preprocessor as utils
 
 
 class PreprocessTransformer(BaseEstimator, TransformerMixin):

@@ -1,6 +1,6 @@
 from sklearn.base import TransformerMixin
 
-from src.transformers.preprocessor import run_regex
+from osm.transformers.preprocessor import run_regex
 
 
 class RegexTransformer(TransformerMixin):
