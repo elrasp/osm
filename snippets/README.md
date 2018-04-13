@@ -15,6 +15,7 @@ The information belows describes the steps to build the Amazon and Yelp data str
 	* CDs and Vinyls
 	* Health and Personal Care
 	* Kindle Store
+
 The downloaded files need to be placed in ../data/amazon
 
 - Convert the dataset to pickle with only the required data.
