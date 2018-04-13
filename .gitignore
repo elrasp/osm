@@ -103,3 +103,9 @@ ENV/
 # pycharm
 *.idea
 *.out
+
+# data files
+*.csv
+*.json
+*.pkl.gzip
+*.json.gz
