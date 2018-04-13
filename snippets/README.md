@@ -16,7 +16,7 @@ The information belows describes the steps to build the Amazon and Yelp data str
 	* Health and Personal Care
 	* Kindle Store
 
-The downloaded files need to be placed in ../data/amazon
+	The downloaded files need to be placed in ../data/amazon
 
 - Convert the dataset to pickle with only the required data.
 	* Snippet: amazon_1_convert_to_pickle.py
