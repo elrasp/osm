@@ -1,6 +1,6 @@
 # Running the Snippets
 
-The information belows describes the steps to build the Amazon and Yelp data streams, preprocess the data and learn over the stream using an active learner that is irregularly available.
+The information belows describes the steps to build the Amazon and Yelp data streams, preprocess the data and learn over the stream using an active learner with an oracle that is irregularly available.
 
 ## Construcing the Data Streams
 
@@ -20,7 +20,7 @@ The information belows describes the steps to build the Amazon and Yelp data str
 
 - Convert the dataset to pickle with only the required data.
 	* Snippet: amazon_1_convert_to_pickle.py
-	* Output: ../data/amazon/*.json.gz -> ../data/amazon/*.pkl.gzip
+	* Output: ../data/amazon/\*.json.gz -> ../data/amazon/\*.pkl.gzip
 
 - Construct the dataset from 2011 onwards varying the product categories every 3 months
 	* Snippet: amazon_2_construct_dataset.py
