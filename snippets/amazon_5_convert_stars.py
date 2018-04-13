@@ -11,7 +11,7 @@ import snippets.amazon_constants_file_paths as paths
 
 def main():
     """
-    This code snippet generate the initially labeled data
+    This code snippet converts the dataset to a 3 class problem
     """
 
     # set the input folder
