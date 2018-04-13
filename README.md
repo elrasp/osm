@@ -17,6 +17,7 @@ requirements.txt - project requirements
 The datasets can be downloaded from the below links:
 
 Yelp Dataset: https://www.yelp.com/dataset/challenge
+
 Amazon Dataset: http://jmcauley.ucsd.edu/data/amazon/
 
 ## Running the code
