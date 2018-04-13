@@ -57,20 +57,20 @@ if __name__ == '__main__':
     # setting the categories to be chosen for each quarter in the year
     product_categories = {
         datetime(2011, 1, 31): ['home and kitchen', 'health and personal care', 'cell phones and accessories'],
-        datetime(2011, 4, 30): ['kindle store', 'home and kitchen', 'apps for andriod'],
+        datetime(2011, 4, 30): ['kindle store', 'home and kitchen', 'apps for android'],
         datetime(2011, 7, 31): ['home and kitchen', 'electronics', 'clothing, shoes and jewelry'],
         datetime(2011, 10, 31): ['home and kitchen', 'kindle store', 'cds and vinyl'],
         datetime(2012, 1, 31): ['cds and vinyl', 'cell phones and accessories', 'home and kitchen'],
-        datetime(2012, 4, 30): ['electronics', 'health and personal care', 'apps for andriod'],
+        datetime(2012, 4, 30): ['electronics', 'health and personal care', 'apps for android'],
         datetime(2012, 7, 31): ['cds and vinyl', 'kindle store', 'health and personal care'],
         datetime(2012, 10, 31): ['cell phones and accessories', 'health and personal care',
                                  'clothing, shoes and jewelry'],
-        datetime(2013, 1, 31): ['apps for andriod', 'kindle store', 'electronics'],
+        datetime(2013, 1, 31): ['apps for android', 'kindle store', 'electronics'],
         datetime(2013, 4, 30): ['electronics', 'cell phones and accessories', 'cds and vinyl'],
         datetime(2013, 7, 31): ['cell phones and accessories', 'home and kitchen', 'cds and vinyl'],
         datetime(2013, 10, 31): ['cds and vinyl', 'kindle store', 'cell phones and accessories'],
         datetime(2014, 1, 31): ['clothing, shoes and jewelry', 'beauty', 'cell phones and accessories'],
-        datetime(2014, 4, 30): ['health and personal care', 'apps for andriod', 'home and kitchen'],
+        datetime(2014, 4, 30): ['health and personal care', 'apps for android', 'home and kitchen'],
         datetime(2014, 7, 31): ['home and kitchen', 'cell phones and accessories', 'cds and vinyl']
     }
 

@@ -65,7 +65,7 @@ if __name__ == '__main__':
     convert_to_pkl("reviews_Home_and_Kitchen_5", 'home and kitchen')
 
     print("Converting apps for android dataset")
-    convert_to_pkl("reviews_Apps_for_Android_5", 'apps for andriod')
+    convert_to_pkl("reviews_Apps_for_Android_5", 'apps for android')
 
     print("Converting cds and vinyls dataset")
     convert_to_pkl("reviews_CDs_and_Vinyl_5", 'cds and vinyl')
