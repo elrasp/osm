@@ -63,7 +63,7 @@ def transform_texts(lang, folder, batch):
         print("{0} - Pre-Processing data: {1}".format(str(datetime.now()), str(batch_id)))
 
         # set the parameter
-        replace_urls = True
+        replace_urls = False
         replace_emoticons = True
         replace_exclamations = False
         replace_punctuations = False
